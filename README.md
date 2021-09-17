@@ -1,5 +1,7 @@
 # Frontend
 
+Curso realizado em vídeo pela Cod3r, a fim, de aprender conceitos gerais do framework como crud completo, pipes, rotas, observables e utilização do material design.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 ## Development server
