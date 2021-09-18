@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-height: 32px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #CD8500;
+}
+
+.title-group{
+    margin: 30px;
+}
+
+.material-icons{
+    margin: 4px;
+}
