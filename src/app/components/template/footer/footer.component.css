@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 1.2em;
+}
+
+.footer .info-footer{
+    font-weight: 300;
+}
+
+.footer .info-footer a{
+    text-decoration: none;
+    font-weight: 300;
+    color: #000;
+}
