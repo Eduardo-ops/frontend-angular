@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    background-color: #4682B4;
     align-items: center;
 }
 
@@ -7,6 +8,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: #fff;
 }
 
 .header .logo{
@@ -14,7 +16,7 @@
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    color: #CD8500;
+    margin-left: 5px;
 }
 
 .title-group{
