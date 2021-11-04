@@ -23,6 +23,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { MatButtonModule } from '@angular/material/button';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
