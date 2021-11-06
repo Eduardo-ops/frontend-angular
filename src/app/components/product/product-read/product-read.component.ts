@@ -11,7 +11,7 @@ export class ProductReadComponent implements OnInit {
 
   // Objeto array de product
   products: Product[]
-  displayedColumns = ['id, name, price']
+  displayedColumns: string[] = ['id', 'name', 'price'];
 
   constructor(private productService: ProductService) { }
 
@@ -20,7 +20,5 @@ export class ProductReadComponent implements OnInit {
       this.products = products
     })
   }
-
-
 
 }
