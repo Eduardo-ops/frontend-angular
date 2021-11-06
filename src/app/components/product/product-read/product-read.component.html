@@ -2,7 +2,7 @@
 
     <!-- Coluna id -->
     <ng-container matColumnDef="id">
-        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <th mat-header-cell *matHeaderCellDef> Id </th>
         <td mat-cell *matCellDef="let element"> {{element.id}} </td>
     </ng-container>
 
@@ -23,10 +23,10 @@
         <th mat-header-cell *matHeaderCellDef> Ações </th>
         <td mat-cell *matCellDef="let element">
 
-            <a routerLink="">
+            <a routerLink="/products/update/:id">
                 <button mat-stroked-button color="primary">Editar</button>
             </a>
-            <a routerLink="">
+            <a routerLink="/products/delete/:id">
                 <button mat-stroked-button color="warn">Remover</button>
             </a>
 
