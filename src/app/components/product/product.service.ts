@@ -42,7 +42,7 @@ export class ProductService {
   //UPDATE
   updateProduct(product: Product): Observable<Product> {
     const urlProduct = `${this.url}/${product.id}`
-    return this.http.put<Product>(this.url, urlProduct)
+    return this.http.put<Product>(urlProduct, product)
   }
 
 }
