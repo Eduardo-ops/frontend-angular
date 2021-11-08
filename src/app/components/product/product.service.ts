@@ -10,7 +10,8 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   // Endpoint do backend para realizar requisições
-  url = 'http://localhost:1005/products'
+  /* url = 'http://localhost:1005/products' */
+  url = 'http://localhost:8080/products'
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
@@ -43,6 +44,12 @@ export class ProductService {
   updateProduct(product: Product): Observable<Product> {
     const urlProduct = `${this.url}/${product.id}`
     return this.http.put<Product>(urlProduct, product)
+  }
+
+  //DELETE
+  deleteProduct(id: string): Observable<Product> {
+    const urlId = `${this.url}/${id}`
+    return this.http.delete<Product>(urlId)
   }
 
 }
