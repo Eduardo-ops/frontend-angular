@@ -2,3 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.cor-message-positive{
+    background-color: #28a745;
+    color: #fff
+}
+
+.cor-message-negative{
+    background-color: #e35e6b;
+    color: #fff
+}
