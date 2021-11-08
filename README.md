@@ -4,6 +4,8 @@ Curso realizado em vídeo pela Cod3r, a fim, de aprender conceitos gerais do fra
 
 [Eduardo Gonçalves - 2021-11-08.pdf](https://github.com/Eduardo-ops/frontend-angular/files/7498906/Eduardo.Goncalves.-.2021-11-08.pdf)
 
+![Certificado de conclusão de curso](https://user-images.githubusercontent.com/54048170/140790273-5bb05580-9a2b-414f-bfc0-ada3f59763cd.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 ## Development server
