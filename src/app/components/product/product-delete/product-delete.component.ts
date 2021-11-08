@@ -15,15 +15,14 @@ export class ProductDeleteComponent implements OnInit {
   constructor(private productService: ProductService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id')
+    const id = +this.route.snapshot.paramMap.get('id')
     this.productService.readProductById(id).subscribe(product => {
       this.product = product
     })
   }
 
   deleteProduct(): void {
-    const id = this.route.snapshot.paramMap.get('id')
-    this.productService.deleteProduct(id).subscribe(() => {
+    this.productService.deleteProduct(this.product.id).subscribe(() => {
       this.productService.showMessage('Produto deletado com sucesso!')
       this.router.navigate(['/products'])
     })
